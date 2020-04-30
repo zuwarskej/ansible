@@ -1,0 +1,9 @@
+---
+### Delete list of users
+
+users:
+  - username: user
+
+
+#  - username: user
+#  - username: user
