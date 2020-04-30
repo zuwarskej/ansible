@@ -4,6 +4,5 @@
   become: yes
 
   tasks:
-
-  - name: Ping servers
+  - name: ping servers
     ping:

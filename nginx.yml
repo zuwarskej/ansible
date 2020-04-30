@@ -1,5 +1,5 @@
 ---
-- name: Run role nginx
+- name: run role nginx
   hosts: hosts
   become: yes
   gather_facts: yes
