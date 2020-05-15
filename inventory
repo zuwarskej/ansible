@@ -1,14 +1,13 @@
 [hosts:children]
 centos
 ubuntu
+jenkins
 
 [centos]
-centos_01		ansible_host=192.168.203.25
-centos_02		ansible_host=192.168.203.27
+centos_01		ansible_host=172.31.24.10
 
 [ubuntu]
-ubuntu_01		ansible_host=192.168.203.26
-ubuntu_02		ansible_host=192.168.203.28
+ubuntu_01		ansible_host=172.31.21.180
 
-[workshop]
-host_01			ansible_host=192.168.31.16
+[jenkins]
+jenkins-master		ansible_host=172.31.46.246

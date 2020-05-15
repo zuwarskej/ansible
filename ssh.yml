@@ -1,7 +1,7 @@
 ---
-- name: run role adduser
+- name: run role ssh and add users
   hosts: hosts
   become: yes
   gather_facts: yes
   roles:
-    - { role: adduser }
+    - { role: ssh }

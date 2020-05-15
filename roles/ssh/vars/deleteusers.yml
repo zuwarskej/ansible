@@ -2,7 +2,7 @@
 ### Delete list of users
 
 users:
-  - username: user
+  - username: ansible
 
 
 #  - username: user
